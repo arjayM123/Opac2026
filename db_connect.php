@@ -1,14 +1,12 @@
 <?php
-$host = "localhost";  // Change this if using an external database
-$user = "root";       // Default user in XAMPP
-$pass = "";           // Default password in XAMPP is empty
-$dbname = "opac_library";  // Your database name
+$host = "sql100.infinityfree.com";
+$user = "if0_41662958";
+$pass = "opac2026";
+$dbname = "if0_41662958_opac_db";
 
-// Create connection
 $conn = new mysqli($host, $user, $pass, $dbname);
 
-// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-?>
+?> 
